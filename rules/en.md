@@ -131,7 +131,7 @@ When a piece holding the ball moves, the ball travels with it. The cost is 1 AP,
 ### Passing
 
 - The piece holding the ball sends it to a valid square without moving itself.
-- Pass destinations follow the same directional pattern as the piece's movement, but passes are **not blocked** by pieces in the path.
+- Pass destinations follow the same directional pattern as the piece's movement. Pieces in the path **do not remove squares from the list of destinations** (you can aim at any square on the piece's directional ray), but if a rival piece lies on the trajectory it **will intercept the pass** — or, if that rival piece is the king, it will be a **goal**. See [Interception](#interception) and [How to score a goal](#6-how-to-score-a-goal).
 - Cost: 1 AP.
 
 ### Interception

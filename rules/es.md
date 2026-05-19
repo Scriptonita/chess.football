@@ -131,7 +131,7 @@ Cuando una pieza con el balón se mueve, el balón viaja con ella. El coste es 1
 ### Pasar
 
 - La pieza con balón lo lanza a una casilla válida sin moverse.
-- Los destinos del pase siguen el mismo patrón direccional que el movimiento de la pieza, pero los pases **no son bloqueados** por las piezas del camino.
+- Los destinos del pase siguen el mismo patrón direccional que el movimiento de la pieza. Las piezas del recorrido **no eliminan casillas de la lista de destinos** (puedes apuntar a cualquier casilla del rayo direccional), pero si una pieza rival se encuentra en el trayecto **interceptará el pase** — o, si esa pieza rival es el rey, será **gol**. Ver [Intercepción](#intercepción) y [Cómo marcar un gol](#6-cómo-marcar-un-gol).
 - Coste: 1 PA.
 
 ### Intercepción
