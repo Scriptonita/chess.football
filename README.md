@@ -17,7 +17,7 @@ Este repositorio existe para que las reglas de **Chess.Football** sean **públic
 ## Estructura
 
 ```
-chess.football-rules/
+chess.football/
 ├── assets/         # Imágenes y recursos gráficos
 ├── rules/          # Traducciones de las reglas (una por idioma)
 └── README.md
