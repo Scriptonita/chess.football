@@ -8,7 +8,7 @@
 
 - **Players**: 2 (white and black).
 - **Objective**: score more goals than your opponent. A goal is scored when a pass reaches the rival king's square.
-- **Turns**: alternating. Each turn, the active player has **5 Action Points (AP)**.
+- **Turns**: alternating. Each turn, the active player has a number of **Action Points (AP)** configured when the match is created (between **1 and 5**; default is 5).
 
 ---
 
@@ -82,7 +82,7 @@ Additional rules:
 
 ## 4. Turn structure
 
-Each turn, the active player has **5 Action Points (AP)**. Every action costs 1 AP.
+Each turn, the active player has the **Action Points (AP)** chosen when the match was created — a value configurable between **1 and 5** (5 by default). Every action costs 1 AP.
 
 ### Available actions
 
@@ -194,7 +194,7 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 
 ## 9. Quick glossary
 
-- **AP (Action Points)**: 5 per turn; each action costs 1 AP.
+- **AP (Action Points)**: configurable from 1 to 5 when creating the match (5 by default); each action costs 1 AP.
 - **Conducting**: moving a piece while it is carrying the ball.
 - **Passing**: kicking the ball without moving the piece.
 - **Tackle**: moving onto a rival piece holding the ball to steal it.

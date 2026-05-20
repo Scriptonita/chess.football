@@ -8,7 +8,7 @@
 
 - **Jugadores**: 2 (blancas y negras).
 - **Objetivo**: marcar más goles que el rival. Se marca un gol cuando un pase alcanza la casilla del rey contrario.
-- **Turnos**: alternos. En cada turno se dispone de **5 Puntos de Acción (PA)**.
+- **Turnos**: alternos. En cada turno se dispone de un número de **Puntos de Acción (PA)** configurable al crear la partida (entre **1 y 5**; por defecto, 5).
 
 ---
 
@@ -82,7 +82,7 @@ Reglas adicionales:
 
 ## 4. Estructura del turno
 
-Cada turno, el jugador activo recibe **5 Puntos de Acción (PA)**. Cada acción cuesta 1 PA.
+Cada turno, el jugador activo recibe los **Puntos de Acción (PA)** definidos al crear la partida — un valor configurable entre **1 y 5** (5 por defecto). Cada acción cuesta 1 PA.
 
 ### Acciones disponibles
 
@@ -194,7 +194,7 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 
 ## 9. Glosario rápido
 
-- **PA (Puntos de Acción)**: 5 por turno; cada acción cuesta 1 PA.
+- **PA (Puntos de Acción)**: configurable entre 1 y 5 al crear la partida (5 por defecto); cada acción cuesta 1 PA.
 - **Conducir**: mover una pieza llevando el balón.
 - **Pasar**: lanzar el balón sin mover la pieza.
 - **Entrada / Tackle**: moverte a la casilla de un rival con balón para robárselo.
