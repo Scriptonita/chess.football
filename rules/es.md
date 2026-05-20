@@ -102,7 +102,8 @@ En ambos casos el saque lo realiza la **dama** del bando que saca, que empieza c
 2. **Pasar** — la pieza que tiene el balón lo lanza a una casilla destino.
    - La pieza no se mueve, solo viaja el balón.
    - El balón vuela siguiendo el patrón direccional de la pieza.
-   - Los pases **no son bloqueados por las piezas del recorrido** salvo cuando se produce una intercepción.
+   - Las **piezas propias** del recorrido **no afectan al pase**: el balón vuela por encima de ellas.
+   - Una **pieza rival** en el trayecto **intercepta el pase** (o es **gol** si esa pieza rival es el rey). Los pases del **caballo** son la excepción: saltan por encima de todo, solo importa la casilla de destino.
 
 3. **Terminar turno** — finalizar el turno voluntariamente cediendo los PA restantes.
 

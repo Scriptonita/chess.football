@@ -102,7 +102,8 @@ In both cases the kickoff is taken by the **queen** of the serving side, which s
 2. **Pass** — the piece holding the ball kicks it toward a destination square.
    - The piece does not move; only the ball travels.
    - The ball follows the piece's directional pattern.
-   - Passes are **not blocked by pieces in the path** except when an interception occurs.
+   - **Your own pieces** on the path **do not affect the pass**: the ball flies over them.
+   - A **rival piece** on the trajectory **intercepts the pass** (or it is a **goal** if that rival piece is the king). **Knight passes are the exception**: they jump over everything, only the destination square matters.
 
 3. **End turn** — finish the turn voluntarily, forfeiting remaining AP.
 
