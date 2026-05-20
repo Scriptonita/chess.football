@@ -84,6 +84,15 @@ Additional rules:
 
 Each turn, the active player has the **Action Points (AP)** chosen when the match was created — a value configurable between **1 and 5** (5 by default). Every action costs 1 AP.
 
+### Opening kickoff
+
+Who takes the very first kickoff of the match depends on the game mode:
+
+- **Online match (PvP)**: **white** always kicks off.
+- **Training (vs AI)**: the side **chosen by the player** when creating the match kicks off.
+
+In both cases the kickoff is taken by the **queen** of the serving side, which starts with the ball on its central square. Kickoffs **after a goal** follow the rule in [section 7](#7-after-a-goal) (the conceding team kicks off).
+
 ### Available actions
 
 1. **Move** — move one of your pieces to a valid square.
@@ -122,7 +131,9 @@ The ball is always on a square. It can be **loose** or **in possession** of a pi
 - **Destination capture**: any piece (including the knight) that ends its move on the loose ball's square picks it up.
 - **Tackle**: when you move to the square of a rival piece holding the ball, you take the ball and the rival piece is displaced to an empty orthogonal adjacent square.
   - **You cannot tackle the rival king.**
-  - If the rival piece is surrounded on all four orthogonal sides (no free square to be displaced to), the tackle **is not allowed**.
+  - Displacement follows a **fixed priority**: right → left → up → down. The rival piece is placed on the first orthogonal empty square in that order.
+  - The square the attacker has **just vacated** counts as empty for the displacement: if the other four orthogonals are occupied but the attacker came from one of them, the rival lands there.
+  - If after applying the above **no empty square remains** for the displaced piece, the tackle **is not allowed** (the move is illegal).
 
 ### Conducting
 
@@ -167,20 +178,30 @@ A goal is scored when a **pass** reaches the rival king's square:
 
 ---
 
-## 8. King special rules
+## 8. End of the match
 
-### 8a. The king cannot hold the ball for more than one turn
+The match ends when a team reaches the **goal target** set when the match was created.
+
+- The goal target is **configurable between 1 and 10** (default: 3).
+- As soon as one side reaches that number, the match ends immediately and that side is declared the winner.
+- **There are no draws**: since the goal target always requires a scorer, there is always a winner.
+
+---
+
+## 9. King special rules
+
+### 9a. The king cannot hold the ball for more than one turn
 
 The king may receive the ball and keep it during that turn, but **must release it before its next turn ends**.
 
 - If the king ends the turn holding the ball, the flag *king must release* is set.
 - On the **following turn** for that team, the king must pass the ball.
-- If the player has not passed with the king by the last AP, the system **auto-releases** the ball to an empty orthogonal adjacent square (consuming that final AP).
+- If the player has not passed with the king by the last AP, the system **auto-releases** the ball to an **empty adjacent square** of the king (consuming that final AP). The 4 orthogonal squares are tried first; if all of them are occupied, the 4 diagonal squares are tried next.
 - The indicator of the last active AP turns into a crown (👑) to warn the player.
 
 **Why**: prevents a winning player from parking the ball with their king to stall the game.
 
-### 8b. Backpass to the keeper
+### 9b. Backpass to the keeper
 
 Once the king releases the ball (voluntarily or automatically), **no teammate can pass the ball back to the king** until a rival piece touches it.
 
@@ -192,7 +213,7 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 
 ---
 
-## 9. Quick glossary
+## 10. Quick glossary
 
 - **AP (Action Points)**: configurable from 1 to 5 when creating the match (5 by default); each action costs 1 AP.
 - **Conducting**: moving a piece while it is carrying the ball.

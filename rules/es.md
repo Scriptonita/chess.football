@@ -84,6 +84,15 @@ Reglas adicionales:
 
 Cada turno, el jugador activo recibe los **Puntos de Acción (PA)** definidos al crear la partida — un valor configurable entre **1 y 5** (5 por defecto). Cada acción cuesta 1 PA.
 
+### Saque inicial
+
+Quién hace el saque del primer turno depende del modo de juego:
+
+- **Partida online (PvP)**: sacan siempre las **blancas**.
+- **Entrenamiento (vs IA)**: saca el bando **elegido por el jugador** al crear la partida.
+
+En ambos casos el saque lo realiza la **dama** del bando que saca, que empieza con el balón en su casilla central. Los saques **tras un gol** se rigen por la regla de la [sección 7](#7-después-de-un-gol) (saca el equipo que ha encajado).
+
 ### Acciones disponibles
 
 1. **Mover** — desplazar una pieza propia a una casilla válida.
@@ -122,7 +131,9 @@ El balón siempre está en una casilla del tablero. Puede estar **suelto** o **e
 - **Captura en el destino**: cualquier pieza (incluido el caballo) que termine su movimiento en la casilla del balón suelto, lo recoge.
 - **Entrada (*tackle*)**: al moverte a la casilla de una pieza rival que lleva el balón, le robas la posesión y la pieza rival es desplazada a una casilla ortogonal adyacente libre.
   - **No se puede entrar al rey rival.**
-  - Si la pieza rival está rodeada por las cuatro casillas ortogonales (sin sitio libre para ser desplazada), la entrada **no está permitida**.
+  - El desplazamiento sigue una **prioridad fija**: derecha → izquierda → arriba → abajo. La pieza rival ocupa la primera casilla ortogonal libre en ese orden.
+  - La casilla que el atacante **acaba de vacar** cuenta como libre para el desplazamiento: si las otras 4 ortogonales están ocupadas pero el atacante venía de una de ellas, el rival cae allí.
+  - Si tras aplicar lo anterior **no queda ninguna casilla libre** para el desplazado, la entrada **no está permitida** (el movimiento es ilegal).
 
 ### Conducción
 
@@ -167,20 +178,30 @@ Se marca gol cuando un **pase** alcanza la casilla del rey rival:
 
 ---
 
-## 8. Reglas especiales del rey
+## 8. Final del partido
 
-### 8a. El rey no puede retener el balón más de un turno
+El partido termina cuando un equipo alcanza el **número de goles objetivo** definido al crear la partida.
+
+- El objetivo de goles es **configurable entre 1 y 10** (por defecto, 3).
+- En cuanto un bando llega a ese número, el partido finaliza inmediatamente y ese bando es declarado vencedor.
+- **No existen empates**: dado que el objetivo de goles siempre exige un goleador, siempre hay un ganador.
+
+---
+
+## 9. Reglas especiales del rey
+
+### 9a. El rey no puede retener el balón más de un turno
 
 El rey puede recibir el balón y conservarlo durante ese turno, pero **debe soltarlo antes de que termine su siguiente turno**.
 
 - Si el rey termina el turno con el balón, queda marcada la condición *el rey debe soltar*.
 - En el **siguiente turno** de ese equipo, el rey está obligado a pasar el balón.
-- Si el jugador no ha pasado con el rey al llegar al último PA, el sistema **suelta el balón automáticamente** a una casilla ortogonal adyacente libre (consumiendo ese último PA).
+- Si el jugador no ha pasado con el rey al llegar al último PA, el sistema **suelta el balón automáticamente** a una casilla **adyacente libre** del rey (consumiendo ese último PA). Se prueban primero las 4 casillas ortogonales y, si todas están ocupadas, las 4 diagonales.
 - El indicador del último PA activo se transforma en una corona (👑) avisando al jugador.
 
 **Motivo**: evita que un jugador que va ganando aparque el balón con su rey para alargar el tiempo.
 
-### 8b. Cesión al portero
+### 9b. Cesión al portero
 
 Una vez que el rey suelta el balón (de forma voluntaria o automática), **ninguna pieza del mismo equipo puede devolverle el balón al rey** hasta que una pieza rival lo toque.
 
@@ -192,7 +213,7 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 
 ---
 
-## 9. Glosario rápido
+## 10. Glosario rápido
 
 - **PA (Puntos de Acción)**: configurable entre 1 y 5 al crear la partida (5 por defecto); cada acción cuesta 1 PA.
 - **Conducir**: mover una pieza llevando el balón.
