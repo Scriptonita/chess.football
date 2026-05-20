@@ -16,21 +16,7 @@
 
 El tablero es rectangular: **9 columnas (A–I) × 12 filas (1–12)**, en total 108 casillas.
 
-```
-12  · · · · · · · · ·   ← fondo negro
-11  R · · · K · · · R   ← Área negra (defendida por el rey negro)
-10  · · · B · B · · ·
- 9  · · · · · · · · ·
- 8  · · N · · · N · ·
- 7  · · · · Q · · · ·   ← centro
- 6  · · · · Q · · · ·   ← centro
- 5  · · N · · · N · ·
- 4  · · · · · · · · ·
- 3  · · · B · B · · ·
- 2  R · · · K · · · R   ← Área blanca (defendida por el rey blanco)
- 1  · · · · · · · · ·   ← fondo blanco
-    A B C D E F G H I
-```
+<img src="../assets/gameboard.png" alt="Tablero de Chess.Football" width="400">
 
 ### Las áreas
 
@@ -225,5 +211,3 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 - **Área**: zona de 5×2 casillas en cada extremo del campo; solo el rey defensor puede pisarla.
 
 ---
-
-*Esta documentación es la versión humana de las reglas del juego. Para la especificación técnica utilizada por la inteligencia artificial del juego, consulta el repositorio principal de la aplicación.*

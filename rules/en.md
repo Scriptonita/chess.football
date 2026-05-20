@@ -16,21 +16,7 @@
 
 The board is rectangular: **9 columns (A–I) × 12 rows (1–12)**, 108 squares in total.
 
-```
-12  · · · · · · · · ·   ← black baseline
-11  R · · · K · · · R   ← Black area (defended by the black king)
-10  · · · B · B · · ·
- 9  · · · · · · · · ·
- 8  · · N · · · N · ·
- 7  · · · · Q · · · ·   ← centre
- 6  · · · · Q · · · ·   ← centre
- 5  · · N · · · N · ·
- 4  · · · · · · · · ·
- 3  · · · B · B · · ·
- 2  R · · · K · · · R   ← White area (defended by the white king)
- 1  · · · · · · · · ·   ← white baseline
-    A B C D E F G H I
-```
+<img src="../assets/gameboard.png" alt="Chess.Football board" width="400">
 
 ### The areas
 
@@ -225,5 +211,3 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 - **Area**: 5×2 zone at each end of the board; only the defending king can step on it.
 
 ---
-
-*This document is the human-readable version of the rules. For the technical specification used by the in-game AI, see the main application repository.*

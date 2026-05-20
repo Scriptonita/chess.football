@@ -2,38 +2,43 @@
   <img alt="Chess.Football" src="./assets/cover.png" />
 </p>
 
-<h1 align="center">Chess.Football — Reglas oficiales</h1>
+<h1 align="center"><a href="https://chess.football">Chess.Football</a> — Official Rules</h1>
 
 <p align="center">
-  Repositorio público con las reglas del juego <strong>Chess.Football</strong>, un juego de estrategia por turnos que fusiona el movimiento del ajedrez con el objetivo del fútbol: marcar más goles que tu rival lanzando el balón contra el rey contrario.
+  Public repository with the rules of <strong><a href="https://chess.football">Chess.Football</a></strong>, a turn-based strategy game that blends chess movement with the goal of football: score more goals than your opponent by shooting the ball at the rival king.
 </p>
 
 ---
 
-## ¿Qué es este repositorio?
+## What is this repository?
 
-Este repositorio existe para que las reglas de **Chess.Football** sean **públicas, versionables y traducibles** por la comunidad. Aquí publicamos la fuente canónica de las reglas y sus traducciones a distintos idiomas, separadas del código de la aplicación para que cualquiera pueda consultarlas, proponer mejoras o aportar nuevas localizaciones sin necesidad de trabajar sobre el repositorio del juego.
+This repository exists to make the rules of **[Chess.Football](https://chess.football)** **public, versionable and translatable** by the community. Here we publish the canonical source of the rules and their translations into different languages, kept separate from the application's code so anyone can read them, suggest improvements or contribute new localisations without having to work on the game's repository.
 
-## Estructura
+## Structure
 
 ```
 chess.football/
-├── assets/         # Imágenes y recursos gráficos
-├── rules/          # Traducciones de las reglas (una por idioma)
+├── assets/         # Images and graphic resources
+├── rules/          # Rule translations (one per language)
 └── README.md
 ```
 
-## Idiomas disponibles
+## Available languages
 
-Las reglas se publican como archivos Markdown dentro de la carpeta [`rules/`](./rules/), con un archivo por idioma usando el código [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes):
+The rules are published as Markdown files inside the [`rules/`](./rules/) folder, with one file per language using the [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code:
 
 - `rules/es.md` — Español
 - `rules/en.md` — English
+- `rules/it.md` — Italiano
+- `rules/fr.md` — Français
+- `rules/de.md` — Deutsch
+- `rules/pt.md` — Português
+- `rules/zh.md` — 中文
+- `rules/ja.md` — 日本語
+- `rules/ko.md` — 한국어
+- `rules/ar.md` — العربية
+- `rules/ru.md` — Русский
 
-## Cómo contribuir
+## How to contribute
 
-¿Quieres traducir las reglas a tu idioma o corregir alguna existente? Abre un Pull Request añadiendo o modificando el archivo correspondiente en [`rules/`](./rules/).
-
-## Licencia
-
-Las reglas se publican bajo licencia [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): puedes copiarlas, redistribuirlas y adaptarlas siempre que reconozcas la autoría original.
+Want to translate the rules into your language or fix an existing translation? Open a Pull Request adding or modifying the corresponding file in [`rules/`](./rules/).
