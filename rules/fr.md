@@ -29,7 +29,7 @@ Règles concernant les surfaces :
 
 1. Le **roi ne peut se déplacer que dans sa propre surface**. Il ne peut jamais en sortir, même en conduisant le ballon.
 2. **Aucune autre pièce de la même équipe ne peut entrer dans sa propre surface**.
-3. Les pièces adverses **peuvent** entrer librement dans la surface opposée.
+3. Les pièces adverses **peuvent** entrer librement dans la surface opposée, mais elles **ne peuvent pas terminer le tour avec le ballon à l'intérieur** (voir [Hors-jeu](#10-hors-jeu)).
 4. Le **roi est intouchable** : aucune pièce adverse ne peut occuper sa case. Seul le ballon (par une passe) peut l'atteindre.
 
 ---
@@ -200,7 +200,20 @@ Une fois que le roi a lâché le ballon (volontairement ou automatiquement), **a
 
 ---
 
-## 10. Glossaire rapide
+## 10. Hors-jeu
+
+Une pièce **autre que le roi** ne peut pas **terminer le tour avec le ballon à l'intérieur de la surface adverse**. Si elle le fait, elle est **hors-jeu** et perd la possession : le ballon est remis au **roi défenseur** (le roi de la surface où elle se trouvait).
+
+- La condition est vérifiée **à la fin de chaque tour**, qu'il se termine par épuisement des PA, par fin de tour volontaire ou par une fin forcée.
+- Cela ne concerne que les pièces **autres que le roi**. Le roi a ses propres règles de possession (section 9) et ne peut jamais se trouver dans la surface adverse.
+- **Il n'y a pas de tour d'avertissement** : terminer **un seul** tour avec le ballon dans la surface adverse suffit à être sanctionné (contrairement à la règle du roi, qui avertit un tour à l'avance).
+- Conduire le ballon **hors de la surface** ou **le passer** avant la fin du tour évite la sanction.
+
+**Pourquoi** : comme les pièces défensives ne peuvent pas entrer dans leur propre surface pour tacler, sans cette règle une pièce adverse pourrait **garer le ballon dans la surface indéfiniment** sans que le défenseur puisse le récupérer. C'est l'équivalent du **hors-jeu** au football : tu ne peux pas rôder dans la surface adverse avec le ballon.
+
+---
+
+## 11. Glossaire rapide
 
 - **PA (Points d'Action)** : configurable entre 1 et 5 à la création de la partie (5 par défaut) ; chaque action coûte 1 PA.
 - **Conduire** : déplacer une pièce avec le ballon.
@@ -209,5 +222,6 @@ Une fois que le roi a lâché le ballon (volontairement ou automatiquement), **a
 - **Interception** : pièce adverse qui capture une passe sur son trajet ; le tour du passeur se termine.
 - **But** : passe qui atteint la case du roi adverse.
 - **Surface** : zone de 5×2 cases à chaque extrémité du terrain ; seul le roi défenseur peut y poser le pied.
+- **Hors-jeu** : terminer le tour avec une pièce (autre que le roi) qui porte le ballon à l'intérieur de la surface adverse ; le ballon passe au roi défenseur.
 
 ---

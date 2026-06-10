@@ -29,7 +29,7 @@ Regras sobre as áreas:
 
 1. O **rei só pode mover-se dentro da sua própria área**. Nunca pode sair, nem mesmo conduzindo a bola.
 2. As **restantes peças da mesma equipa não podem entrar na sua própria área**.
-3. As peças adversárias **podem** entrar livremente na área contrária.
+3. As peças adversárias **podem** entrar livremente na área contrária, mas **não podem terminar o turno com a bola lá dentro** (ver [Fora de jogo](#10-fora-de-jogo)).
 4. O **rei é intocável**: nenhuma peça adversária pode pisar a sua casa. Apenas a bola (mediante um passe) pode alcançá-lo.
 
 ---
@@ -200,7 +200,20 @@ Uma vez que o rei larga a bola (voluntária ou automaticamente), **nenhuma peça
 
 ---
 
-## 10. Glossário rápido
+## 10. Fora de jogo
+
+Uma peça **que não seja o rei** não pode **terminar o turno com a bola dentro da área adversária**. Se o fizer, fica em **fora de jogo** e perde a posse: a bola passa para o **rei defensor** (o rei da área onde se encontrava).
+
+- A condição é verificada **no final de cada turno**, quer termine por esgotar os PA, por terminar o turno voluntariamente ou por um final forçado.
+- Só afeta as peças **que não são o rei**. O rei tem as suas próprias regras de posse (secção 9) e nunca pode estar na área adversária.
+- **Não há turno de aviso**: basta terminar **um** turno com a bola na área adversária para ser penalizado (ao contrário da regra do rei, que avisa um turno antes).
+- Conduzir a bola **para fora da área** ou **passá-la** antes de terminar o turno evita a penalização.
+
+**Motivo**: como as peças defensoras não podem entrar na sua própria área para fazer uma entrada, sem esta regra uma peça adversária poderia **estacionar a bola na área indefinidamente** sem que o defensor a pudesse recuperar. É o equivalente ao **fora de jogo** do futebol: não podes ficar à espreita na área adversária com a bola.
+
+---
+
+## 11. Glossário rápido
 
 - **PA (Pontos de Ação)**: configurável entre 1 e 5 ao criar a partida (5 por defeito); cada ação custa 1 PA.
 - **Conduzir**: mover uma peça com a bola.
@@ -209,5 +222,6 @@ Uma vez que o rei larga a bola (voluntária ou automaticamente), **nenhuma peça
 - **Interceção**: peça adversária que captura um passe no seu trajeto; o turno do passador termina.
 - **Golo**: passe que alcança a casa do rei adversário.
 - **Área**: zona de 5×2 casas em cada extremo do campo; só o rei defensor pode pisá-la.
+- **Fora de jogo**: terminar o turno com uma peça (que não seja o rei) que leva a bola dentro da área adversária; a bola passa para o rei defensor.
 
 ---

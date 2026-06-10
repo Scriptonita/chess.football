@@ -29,7 +29,7 @@ Rules about the areas:
 
 1. The **king can only move within its own area**. It may never leave, not even while holding the ball.
 2. **No other piece of the same team can enter its own area**.
-3. Rival pieces **can** enter the opposite area freely.
+3. Rival pieces **can** enter the opposite area freely, but they **cannot end the turn holding the ball inside it** (see [Offside](#10-offside)).
 4. The **king is untouchable**: no rival piece can step onto its square. Only the ball (through a pass) can reach it.
 
 ---
@@ -200,7 +200,20 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 
 ---
 
-## 10. Quick glossary
+## 10. Offside
+
+A piece **other than the king** may not **end the turn holding the ball inside the rival area**. If it does, it is **offside** and loses possession: the ball is handed to the **defending king** (the king of the area it was in).
+
+- The condition is checked **at the end of every turn**, whether it ends by running out of AP, by ending the turn voluntarily, or by a forced end.
+- It only affects pieces that are **not the king**. The king has its own possession rules (section 9) and can never be in the rival area.
+- **There is no warning turn**: ending just **one** turn with the ball inside the rival area is enough to be penalised (unlike the king rule, which warns one turn ahead).
+- Conducting the ball **out of the area** or **passing it** before the turn ends avoids the penalty.
+
+**Why**: since defending pieces cannot enter their own area to make a tackle, without this rule a rival piece could **camp the ball in the area indefinitely** with no way for the defender to recover it. It is the equivalent of football's **offside**: you cannot lurk in the rival area with the ball.
+
+---
+
+## 11. Quick glossary
 
 - **AP (Action Points)**: configurable from 1 to 5 when creating the match (5 by default); each action costs 1 AP.
 - **Conducting**: moving a piece while it is carrying the ball.
@@ -209,5 +222,6 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 - **Interception**: a rival piece catches a pass in transit; the passer's turn ends.
 - **Goal**: a pass that reaches the rival king's square.
 - **Area**: 5×2 zone at each end of the board; only the defending king can step on it.
+- **Offside**: ending the turn with a piece (other than the king) holding the ball inside the rival area; the ball passes to the defending king.
 
 ---

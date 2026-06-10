@@ -29,7 +29,7 @@ Regeln zu den Strafräumen:
 
 1. Der **König darf sich nur innerhalb seines eigenen Strafraums bewegen**. Er darf ihn niemals verlassen, auch nicht mit dem Ball.
 2. **Keine andere Figur derselben Mannschaft darf in ihren eigenen Strafraum**.
-3. Gegnerische Figuren **dürfen** den gegnerischen Strafraum frei betreten.
+3. Gegnerische Figuren **dürfen** den gegnerischen Strafraum frei betreten, **dürfen den Zug aber nicht mit dem Ball darin beenden** (siehe [Abseits](#10-abseits)).
 4. Der **König ist unantastbar**: keine gegnerische Figur darf sein Feld betreten. Nur der Ball (durch einen Pass) kann ihn erreichen.
 
 ---
@@ -200,7 +200,20 @@ Sobald der König den Ball abgibt (freiwillig oder automatisch), **darf keine Fi
 
 ---
 
-## 10. Schnellglossar
+## 10. Abseits
+
+Eine Figur, die **nicht der König** ist, darf **den Zug nicht mit dem Ball im gegnerischen Strafraum beenden**. Tut sie es, steht sie im **Abseits** und verliert den Ballbesitz: Der Ball geht an den **verteidigenden König** (den König des Strafraums, in dem sie sich befand).
+
+- Die Bedingung wird **am Ende jedes Zuges** geprüft – egal, ob er durch aufgebrauchte AP, durch freiwilliges Beenden oder durch ein erzwungenes Ende endet.
+- Betroffen sind nur Figuren, die **nicht der König** sind. Der König hat eigene Ballbesitzregeln (Abschnitt 9) und kann sich nie im gegnerischen Strafraum befinden.
+- **Es gibt keinen Warnzug**: Schon **ein** Zug, der mit dem Ball im gegnerischen Strafraum endet, wird bestraft (anders als die Königsregel, die einen Zug vorher warnt).
+- Den Ball **aus dem Strafraum heraus zu dribbeln** oder ihn **abzuspielen**, bevor der Zug endet, vermeidet die Strafe.
+
+**Grund**: Da verteidigende Figuren ihren eigenen Strafraum nicht betreten dürfen, um zu tackeln, könnte ohne diese Regel eine gegnerische Figur **den Ball unbegrenzt im Strafraum parken**, ohne dass der Verteidiger ihn zurückerobern kann. Es ist das Äquivalent zum **Abseits** im Fußball: Du kannst nicht mit dem Ball im gegnerischen Strafraum lauern.
+
+---
+
+## 11. Schnellglossar
 
 - **AP (Aktionspunkte)**: zwischen 1 und 5 bei der Spielerstellung konfigurierbar (Standard 5); jede Aktion kostet 1 AP.
 - **Dribbling**: eine Figur mit dem Ball bewegen.
@@ -209,5 +222,6 @@ Sobald der König den Ball abgibt (freiwillig oder automatisch), **darf keine Fi
 - **Abfangen**: gegnerische Figur, die einen Pass auf seinem Weg abfängt; der Zug des Passgebers endet.
 - **Tor**: Pass, der das Feld des gegnerischen Königs erreicht.
 - **Strafraum**: 5×2-Zone an jedem Ende des Spielfelds; nur der verteidigende König darf ihn betreten.
+- **Abseits**: den Zug mit einer Figur (nicht dem König) beenden, die den Ball im gegnerischen Strafraum führt; der Ball geht an den verteidigenden König.
 
 ---

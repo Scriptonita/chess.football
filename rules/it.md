@@ -29,7 +29,7 @@ Regole sulle aree:
 
 1. Il **re può muoversi solo all'interno della propria area**. Non può mai uscirne, nemmeno conducendo la palla.
 2. **Nessun altro pezzo della stessa squadra può entrare nella propria area**.
-3. I pezzi avversari **possono** entrare liberamente nell'area opposta.
+3. I pezzi avversari **possono** entrare liberamente nell'area opposta, ma **non possono terminare il turno con la palla al suo interno** (vedi [Fuorigioco](#10-fuorigioco)).
 4. Il **re è intoccabile**: nessun pezzo avversario può occupare la sua casella. Solo la palla (tramite un passaggio) può raggiungerlo.
 
 ---
@@ -200,7 +200,20 @@ Una volta che il re libera la palla (volontariamente o automaticamente), **nessu
 
 ---
 
-## 10. Glossario rapido
+## 10. Fuorigioco
+
+Un pezzo **diverso dal re** non può **terminare il turno con la palla all'interno dell'area avversaria**. Se lo fa, è in **fuorigioco** e perde il possesso: la palla passa al **re difensore** (il re dell'area in cui si trovava).
+
+- La condizione viene verificata **alla fine di ogni turno**, sia che termini per esaurimento dei PA, per fine turno volontaria o per una fine forzata.
+- Riguarda solo i pezzi **che non sono il re**. Il re ha le proprie regole di possesso (sezione 9) e non può mai trovarsi nell'area avversaria.
+- **Non c'è un turno di avviso**: basta terminare **un** turno con la palla nell'area avversaria per essere puniti (a differenza della regola del re, che avvisa un turno prima).
+- Condurre la palla **fuori dall'area** o **passarla** prima di terminare il turno evita la sanzione.
+
+**Motivo**: poiché i pezzi difensori non possono entrare nella propria area per fare un tackle, senza questa regola un pezzo avversario potrebbe **parcheggiare la palla nell'area a tempo indeterminato** senza che il difensore possa recuperarla. È l'equivalente del **fuorigioco** del calcio: non puoi stazionare nell'area avversaria con la palla.
+
+---
+
+## 11. Glossario rapido
 
 - **PA (Punti Azione)**: configurabile tra 1 e 5 alla creazione della partita (5 di default); ogni azione costa 1 PA.
 - **Condurre**: muovere un pezzo portando la palla.
@@ -209,5 +222,6 @@ Una volta che il re libera la palla (volontariamente o automaticamente), **nessu
 - **Intercettazione**: pezzo avversario che cattura un passaggio sul suo percorso; il turno del passatore termina.
 - **Gol**: passaggio che raggiunge la casella del re avversario.
 - **Area**: zona di 5×2 caselle a ciascuna estremità del campo; solo il re difensore può calpestarla.
+- **Fuorigioco**: terminare il turno con un pezzo (diverso dal re) che porta la palla all'interno dell'area avversaria; la palla passa al re difensore.
 
 ---

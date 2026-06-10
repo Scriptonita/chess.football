@@ -29,7 +29,7 @@ Reglas sobre las áreas:
 
 1. El **rey solo puede moverse dentro de su propia área**. Nunca puede salir, ni siquiera llevando el balón.
 2. Las **demás piezas del mismo equipo no pueden entrar en su propia área**.
-3. Las piezas rivales **sí pueden entrar** libremente en el área contraria.
+3. Las piezas rivales **sí pueden entrar** libremente en el área contraria, pero **no pueden terminar el turno con el balón dentro de ella** (ver [Fuera de juego](#10-fuera-de-juego)).
 4. El **rey es intocable**: ninguna pieza rival puede pisar su casilla. Solo el balón (mediante un pase) puede alcanzarla.
 
 ---
@@ -200,7 +200,20 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 
 ---
 
-## 10. Glosario rápido
+## 10. Fuera de juego
+
+Una pieza **que no sea el rey** no puede **terminar el turno con el balón dentro del área rival**. Si lo hace, queda en **fuera de juego** y pierde la posesión: el balón pasa al **rey defensor** (el rey del área en la que se encontraba).
+
+- La condición se evalúa **al final de cada turno**, ya sea por agotar los PA, por terminar el turno voluntariamente o por un final forzado.
+- Solo afecta a las piezas **que no son el rey**. El rey tiene sus propias reglas de posesión (sección 9) y nunca puede estar en el área rival.
+- **No hay turno de aviso**: basta con acabar **un** turno con el balón en el área rival para ser sancionado (a diferencia de la regla del rey, que avisa un turno antes).
+- Conducir el balón **fuera del área** o **pasarlo** antes de terminar el turno evita la sanción.
+
+**Motivo**: como las piezas defensoras no pueden entrar en su propia área para hacer una entrada, sin esta regla una pieza rival podría **aparcar el balón en el área indefinidamente** sin que el defensor pudiera recuperarlo. Es el equivalente al **fuera de juego** del fútbol: no puedes camparte en el área rival con el balón.
+
+---
+
+## 11. Glosario rápido
 
 - **PA (Puntos de Acción)**: configurable entre 1 y 5 al crear la partida (5 por defecto); cada acción cuesta 1 PA.
 - **Conducir**: mover una pieza llevando el balón.
@@ -209,5 +222,6 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 - **Intercepción**: pieza rival que captura un pase en su recorrido; el turno del pasador termina.
 - **Gol**: pase que alcanza la casilla del rey rival.
 - **Área**: zona de 5×2 casillas en cada extremo del campo; solo el rey defensor puede pisarla.
+- **Fuera de juego**: terminar el turno con una pieza (que no sea el rey) que lleva el balón dentro del área rival; el balón pasa al rey defensor.
 
 ---
