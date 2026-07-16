@@ -43,8 +43,8 @@ Ogni squadra dispone di **8 pezzi** con movimenti ispirati agli scacchi:
 | Re (K)        | 1        | E2                           | Porta / obiettivo          |
 | Donna (Q)     | 1        | E6                           | Centrocampista             |
 | Torre (R)     | 2        | A2, I2                       | Difensori laterali         |
-| Alfiere (B)   | 2        | D3, F3                       | Difensori centrali         |
-| Cavallo (N)   | 2        | C5, G5                       | Attaccanti                 |
+| Alfiere (B)   | 2        | D3, G5                       | Difensori centrali         |
+| Cavallo (N)   | 2        | C5, F3                       | Attaccanti                 |
 
 I pezzi neri vengono disposti specularmente nella metà campo opposta.
 
@@ -194,7 +194,7 @@ Una volta che il re libera la palla (volontariamente o automaticamente), **nessu
 
 - Quando il re passa, viene bloccato come ricevitore.
 - La casella del re viene esclusa dalle destinazioni valide di passaggio per i suoi compagni.
-- Il blocco si solleva quando un **pezzo avversario tocca la palla** (tramite intercettazione, tackle o gol).
+- Il blocco si solleva non appena un **pezzo avversario tocca la palla** in qualsiasi modo: intercettazione, tackle, cattura di una palla vagante, ricezione dopo un fuorigioco o gol.
 
 **Motivo**: riflette la regola del retropassaggio al portiere nel calcio — evita che la squadra passi ripetutamente al re per perdere tempo.
 
@@ -221,7 +221,7 @@ Un pezzo **diverso dal re** non può **terminare il turno con la palla all'inter
 - **Tackle**: muoverti sulla casella di un avversario con la palla per rubargliela.
 - **Intercettazione**: pezzo avversario che cattura un passaggio sul suo percorso; il turno del passatore termina.
 - **Gol**: passaggio che raggiunge la casella del re avversario.
-- **Area**: zona di 5×2 caselle a ciascuna estremità del campo; solo il re difensore può calpestarla.
+- **Area**: zona di 5×2 caselle a ciascuna estremità del campo; della squadra che difende solo il re può calpestarla. I pezzi avversari possono entrarvi liberamente, ma non possono terminare il turno con la palla al suo interno (fuorigioco).
 - **Fuorigioco**: terminare il turno con un pezzo (diverso dal re) che porta la palla all'interno dell'area avversaria; la palla passa al re difensore.
 
 ---

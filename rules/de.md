@@ -43,8 +43,8 @@ Jede Mannschaft verfügt über **8 Figuren** mit vom Schach inspirierten Bewegun
 | König (K)      | 1      | E2                   | Tor / Ziel                 |
 | Dame (Q)       | 1      | E6                   | Mittelfeldspieler          |
 | Turm (R)       | 2      | A2, I2               | Außenverteidiger           |
-| Läufer (B)     | 2      | D3, F3               | Innenverteidiger           |
-| Springer (N)   | 2      | C5, G5               | Stürmer                    |
+| Läufer (B)     | 2      | D3, G5               | Innenverteidiger           |
+| Springer (N)   | 2      | C5, F3               | Stürmer                    |
 
 Die schwarzen Figuren werden spiegelbildlich in ihrer Hälfte aufgestellt.
 
@@ -194,7 +194,7 @@ Sobald der König den Ball abgibt (freiwillig oder automatisch), **darf keine Fi
 
 - Sobald der König passt, wird er als Empfänger blockiert.
 - Das Feld des Königs wird aus den gültigen Passzielen seiner Mitspieler ausgeschlossen.
-- Die Sperre wird aufgehoben, sobald eine **gegnerische Figur den Ball berührt** (durch Abfangen, Tackling oder Tor).
+- Die Sperre wird aufgehoben, sobald eine **gegnerische Figur den Ball berührt** — auf beliebige Weise: Abfangen, Tackling, Aufnehmen eines freien Balls, Erhalt nach einem Abseits oder Tor.
 
 **Warum**: bildet die Rückpass-Regel im Fußball nach — verhindert, dass die Mannschaft den Ball wiederholt zum König spielt, um Zeit zu verschwenden.
 
@@ -221,7 +221,7 @@ Eine Figur, die **nicht der König** ist, darf **den Zug nicht mit dem Ball im g
 - **Tackling**: auf das Feld eines ballführenden Gegners ziehen, um ihm den Ball abzunehmen.
 - **Abfangen**: gegnerische Figur, die einen Pass auf seinem Weg abfängt; der Zug des Passgebers endet.
 - **Tor**: Pass, der das Feld des gegnerischen Königs erreicht.
-- **Strafraum**: 5×2-Zone an jedem Ende des Spielfelds; nur der verteidigende König darf ihn betreten.
+- **Strafraum**: 5×2-Zone an jedem Ende des Spielfelds; von der verteidigenden Mannschaft darf ihn nur der König betreten. Gegnerische Figuren dürfen frei hinein, dürfen aber den Zug nicht mit dem Ball darin beenden (Abseits).
 - **Abseits**: den Zug mit einer Figur (nicht dem König) beenden, die den Ball im gegnerischen Strafraum führt; der Ball geht an den verteidigenden König.
 
 ---

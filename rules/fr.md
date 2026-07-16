@@ -43,8 +43,8 @@ Chaque équipe dispose de **8 pièces** aux mouvements inspirés des échecs :
 | Roi (K)       | 1        | E2                          | But / cible                |
 | Dame (Q)      | 1        | E6                          | Milieu de terrain          |
 | Tour (R)      | 2        | A2, I2                      | Défenseurs latéraux        |
-| Fou (B)       | 2        | D3, F3                      | Défenseurs centraux        |
-| Cavalier (N)  | 2        | C5, G5                      | Attaquants                 |
+| Fou (B)       | 2        | D3, G5                      | Défenseurs centraux        |
+| Cavalier (N)  | 2        | C5, F3                      | Attaquants                 |
 
 Les pièces noires sont placées en miroir dans leur camp.
 
@@ -194,7 +194,7 @@ Une fois que le roi a lâché le ballon (volontairement ou automatiquement), **a
 
 - Quand le roi passe, il est bloqué en tant que receveur.
 - La case du roi est exclue des destinations valides de passe pour ses coéquipiers.
-- Le blocage est levé dès qu'une **pièce adverse touche le ballon** (par interception, tacle ou but).
+- Le blocage est levé dès qu'une **pièce adverse touche le ballon**, de quelque manière que ce soit : interception, tacle, récupération d'un ballon libre, réception après un hors-jeu ou but.
 
 **Pourquoi** : reflète la règle de la passe en retrait au gardien en football — empêche l'équipe de passer à plusieurs reprises au roi pour gagner du temps.
 
@@ -221,7 +221,7 @@ Une pièce **autre que le roi** ne peut pas **terminer le tour avec le ballon à
 - **Tacle** : te déplacer sur la case d'un adversaire avec le ballon pour le lui voler.
 - **Interception** : pièce adverse qui capture une passe sur son trajet ; le tour du passeur se termine.
 - **But** : passe qui atteint la case du roi adverse.
-- **Surface** : zone de 5×2 cases à chaque extrémité du terrain ; seul le roi défenseur peut y poser le pied.
+- **Surface** : zone de 5×2 cases à chaque extrémité du terrain ; dans l'équipe qui défend, seul le roi peut y poser le pied. Les pièces adverses peuvent y entrer librement, mais ne peuvent pas terminer leur tour avec le ballon à l'intérieur (hors-jeu).
 - **Hors-jeu** : terminer le tour avec une pièce (autre que le roi) qui porte le ballon à l'intérieur de la surface adverse ; le ballon passe au roi défenseur.
 
 ---

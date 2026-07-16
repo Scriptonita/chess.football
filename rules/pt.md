@@ -43,8 +43,8 @@ Cada equipa dispõe de **8 peças** com movimentos inspirados no xadrez:
 | Rei (K)       | 1          | E2                        | Baliza / objetivo            |
 | Dama (Q)      | 1          | E6                        | Médio                        |
 | Torre (R)     | 2          | A2, I2                    | Defesas laterais             |
-| Bispo (B)     | 2          | D3, F3                    | Defesas centrais             |
-| Cavalo (N)    | 2          | C5, G5                    | Avançados                    |
+| Bispo (B)     | 2          | D3, G5                    | Defesas centrais             |
+| Cavalo (N)    | 2          | C5, F3                    | Avançados                    |
 
 As peças pretas colocam-se em posição espelhada no lado oposto do campo.
 
@@ -194,7 +194,7 @@ Uma vez que o rei larga a bola (voluntária ou automaticamente), **nenhuma peça
 
 - Quando o rei passa, fica bloqueado como recetor.
 - A casa do rei é excluída dos destinos válidos de passe para os seus colegas.
-- O bloqueio é levantado quando uma **peça adversária toca na bola** (por interceção, desarme ou golo).
+- O bloqueio é levantado assim que uma **peça adversária toca na bola** de qualquer forma: interceção, desarme, captura de uma bola solta, receção após um fora de jogo ou golo.
 
 **Motivo**: reflete a regra de recuo para o guarda-redes no futebol — evita que a equipa passe repetidamente para o rei para perder tempo.
 
@@ -221,7 +221,7 @@ Uma peça **que não seja o rei** não pode **terminar o turno com a bola dentro
 - **Entrada / Desarme**: moveres-te para a casa de um adversário com a bola para lha roubar.
 - **Interceção**: peça adversária que captura um passe no seu trajeto; o turno do passador termina.
 - **Golo**: passe que alcança a casa do rei adversário.
-- **Área**: zona de 5×2 casas em cada extremo do campo; só o rei defensor pode pisá-la.
+- **Área**: zona de 5×2 casas em cada extremo do campo; da equipa defensora só o rei pode pisá-la. As peças adversárias podem entrar livremente, mas não podem terminar o turno com a bola lá dentro (fora de jogo).
 - **Fora de jogo**: terminar o turno com uma peça (que não seja o rei) que leva a bola dentro da área adversária; a bola passa para o rei defensor.
 
 ---

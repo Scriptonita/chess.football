@@ -43,8 +43,8 @@ Each team has **8 pieces** with chess-inspired movement:
 | King (K)     | 1     | E2                        | Goal / target            |
 | Queen (Q)    | 1     | E6                        | Midfielder               |
 | Rook (R)     | 2     | A2, I2                    | Lateral defenders        |
-| Bishop (B)   | 2     | D3, F3                    | Central defenders        |
-| Knight (N)   | 2     | C5, G5                    | Strikers                 |
+| Bishop (B)   | 2     | D3, G5                    | Central defenders        |
+| Knight (N)   | 2     | C5, F3                    | Strikers                 |
 
 Black pieces are placed mirroring this layout on the opposite side of the board.
 
@@ -194,7 +194,7 @@ Once the king releases the ball (voluntarily or automatically), **no teammate ca
 
 - When the king passes, it becomes blocked as a receiver.
 - The king's square is excluded from valid pass destinations for its teammates.
-- The block is lifted as soon as a **rival piece touches the ball** (through interception, tackle or goal).
+- The block is lifted as soon as a **rival piece touches the ball** in any way: interception, tackle, capturing a loose ball, receiving it after an offside, or goal.
 
 **Why**: mirrors the football backpass rule — prevents repeatedly passing to the king to waste time.
 
@@ -221,7 +221,7 @@ A piece **other than the king** may not **end the turn holding the ball inside t
 - **Tackle**: moving onto a rival piece holding the ball to steal it.
 - **Interception**: a rival piece catches a pass in transit; the passer's turn ends.
 - **Goal**: a pass that reaches the rival king's square.
-- **Area**: 5×2 zone at each end of the board; only the defending king can step on it.
+- **Area**: 5×2 zone at each end of the board; on the defending team only the king may step on it. Rival pieces can enter freely, but cannot end their turn holding the ball inside it (offside).
 - **Offside**: ending the turn with a piece (other than the king) holding the ball inside the rival area; the ball passes to the defending king.
 
 ---

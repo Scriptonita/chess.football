@@ -43,8 +43,8 @@ Cada equipo dispone de **8 piezas** con movimientos inspirados en el ajedrez:
 | Rey (K)      | 1        | E2                         | Portería / objetivo        |
 | Dama (Q)     | 1        | E6                         | Mediocampista              |
 | Torre (R)    | 2        | A2, I2                     | Defensas laterales         |
-| Alfil (B)    | 2        | D3, F3                     | Defensas centrales         |
-| Caballo (N)  | 2        | C5, G5                     | Delanteros                 |
+| Alfil (B)    | 2        | D3, G5                     | Defensas centrales         |
+| Caballo (N)  | 2        | C5, F3                     | Delanteros                 |
 
 Las piezas negras se sitúan en una posición espejo en su lado del campo.
 
@@ -194,7 +194,7 @@ Una vez que el rey suelta el balón (de forma voluntaria o automática), **ningu
 
 - Cuando el rey pasa, queda bloqueado como receptor.
 - La casilla del rey queda excluida de los destinos válidos de pase para sus compañeros.
-- El bloqueo se levanta cuando una **pieza rival toca el balón** (mediante intercepción, entrada o gol).
+- El bloqueo se levanta en cuanto una **pieza rival toca el balón** de cualquier forma: intercepción, entrada, captura de un balón suelto, recepción tras un fuera de juego o gol.
 
 **Motivo**: refleja la regla de cesión al portero en el fútbol — evita que el equipo pase repetidamente al rey para perder tiempo.
 
@@ -221,7 +221,7 @@ Una pieza **que no sea el rey** no puede **terminar el turno con el balón dentr
 - **Entrada / Tackle**: moverte a la casilla de un rival con balón para robárselo.
 - **Intercepción**: pieza rival que captura un pase en su recorrido; el turno del pasador termina.
 - **Gol**: pase que alcanza la casilla del rey rival.
-- **Área**: zona de 5×2 casillas en cada extremo del campo; solo el rey defensor puede pisarla.
+- **Área**: zona de 5×2 casillas en cada extremo del campo; del equipo defensor solo el rey puede pisarla. Las piezas rivales pueden entrar libremente, pero no terminar su turno con el balón dentro (fuera de juego).
 - **Fuera de juego**: terminar el turno con una pieza (que no sea el rey) que lleva el balón dentro del área rival; el balón pasa al rey defensor.
 
 ---
