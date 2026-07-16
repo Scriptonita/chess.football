@@ -43,8 +43,8 @@ Ogni squadra dispone di **8 pezzi** con movimenti ispirati agli scacchi:
 | Re (K)        | 1        | E2                           | Porta / obiettivo          |
 | Donna (Q)     | 1        | E6                           | Centrocampista             |
 | Torre (R)     | 2        | A2, I2                       | Difensori laterali         |
-| Alfiere (B)   | 2        | D3, F3                       | Difensori centrali         |
-| Cavallo (N)   | 2        | C5, G5                       | Attaccanti                 |
+| Alfiere (B)   | 2        | D3, G5                       | Difensori centrali         |
+| Cavallo (N)   | 2        | C5, F3                       | Attaccanti                 |
 
 I pezzi neri vengono disposti specularmente nella metà campo opposta.
 

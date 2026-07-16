@@ -43,8 +43,8 @@ Each team has **8 pieces** with chess-inspired movement:
 | King (K)     | 1     | E2                        | Goal / target            |
 | Queen (Q)    | 1     | E6                        | Midfielder               |
 | Rook (R)     | 2     | A2, I2                    | Lateral defenders        |
-| Bishop (B)   | 2     | D3, F3                    | Central defenders        |
-| Knight (N)   | 2     | C5, G5                    | Strikers                 |
+| Bishop (B)   | 2     | D3, G5                    | Central defenders        |
+| Knight (N)   | 2     | C5, F3                    | Strikers                 |
 
 Black pieces are placed mirroring this layout on the opposite side of the board.
 

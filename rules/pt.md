@@ -43,8 +43,8 @@ Cada equipa dispõe de **8 peças** com movimentos inspirados no xadrez:
 | Rei (K)       | 1          | E2                        | Baliza / objetivo            |
 | Dama (Q)      | 1          | E6                        | Médio                        |
 | Torre (R)     | 2          | A2, I2                    | Defesas laterais             |
-| Bispo (B)     | 2          | D3, F3                    | Defesas centrais             |
-| Cavalo (N)    | 2          | C5, G5                    | Avançados                    |
+| Bispo (B)     | 2          | D3, G5                    | Defesas centrais             |
+| Cavalo (N)    | 2          | C5, F3                    | Avançados                    |
 
 As peças pretas colocam-se em posição espelhada no lado oposto do campo.
 

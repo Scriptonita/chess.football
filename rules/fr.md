@@ -43,8 +43,8 @@ Chaque équipe dispose de **8 pièces** aux mouvements inspirés des échecs :
 | Roi (K)       | 1        | E2                          | But / cible                |
 | Dame (Q)      | 1        | E6                          | Milieu de terrain          |
 | Tour (R)      | 2        | A2, I2                      | Défenseurs latéraux        |
-| Fou (B)       | 2        | D3, F3                      | Défenseurs centraux        |
-| Cavalier (N)  | 2        | C5, G5                      | Attaquants                 |
+| Fou (B)       | 2        | D3, G5                      | Défenseurs centraux        |
+| Cavalier (N)  | 2        | C5, F3                      | Attaquants                 |
 
 Les pièces noires sont placées en miroir dans leur camp.
 

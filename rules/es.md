@@ -43,8 +43,8 @@ Cada equipo dispone de **8 piezas** con movimientos inspirados en el ajedrez:
 | Rey (K)      | 1        | E2                         | Portería / objetivo        |
 | Dama (Q)     | 1        | E6                         | Mediocampista              |
 | Torre (R)    | 2        | A2, I2                     | Defensas laterales         |
-| Alfil (B)    | 2        | D3, F3                     | Defensas centrales         |
-| Caballo (N)  | 2        | C5, G5                     | Delanteros                 |
+| Alfil (B)    | 2        | D3, G5                     | Defensas centrales         |
+| Caballo (N)  | 2        | C5, F3                     | Delanteros                 |
 
 Las piezas negras se sitúan en una posición espejo en su lado del campo.
 

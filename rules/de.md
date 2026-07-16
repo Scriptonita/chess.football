@@ -43,8 +43,8 @@ Jede Mannschaft verfügt über **8 Figuren** mit vom Schach inspirierten Bewegun
 | König (K)      | 1      | E2                   | Tor / Ziel                 |
 | Dame (Q)       | 1      | E6                   | Mittelfeldspieler          |
 | Turm (R)       | 2      | A2, I2               | Außenverteidiger           |
-| Läufer (B)     | 2      | D3, F3               | Innenverteidiger           |
-| Springer (N)   | 2      | C5, G5               | Stürmer                    |
+| Läufer (B)     | 2      | D3, G5               | Innenverteidiger           |
+| Springer (N)   | 2      | C5, F3               | Stürmer                    |
 
 Die schwarzen Figuren werden spiegelbildlich in ihrer Hälfte aufgestellt.
 
